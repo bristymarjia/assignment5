@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+:hover {
+    background-color: #0003;
+}*/
+
+
+body {
+    font-family: cursive;
+    background-color: white;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    margin-top: 80px;
+
+}
+
+header nav {
+    background-color: black;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    box-shadow: 0 3px 3px #000;
+}
+
+.logo {
+    width: 20%;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    line-height: 80px;
+}
+
+.logo a:hover {
+    color: rgb(104, 139, 245);
+
+}
+
+.menu {
+    width: 60%;
+    text-align: center;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+
+.menu ul li a:hover {
+    color: rgb(104, 139, 245);
+}
+
+.join-btn {
+    width: 10%;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+
+.join-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+}
+
+.join-btn a:hover {
+    color: red;
+}
+
+/* ---- /Common */
+
+.content {
+    width: 100%;
+    padding-left: 3%;
+}
+
+.section-title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    margin: 35px 0 20px 0;
+}
+
+.phone-desc {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.phone-desc>img {
+    height: auto;
+    width: 95%;
+    padding: 0 2.5%;
+}
+
+.phone-desc h1 {
+    margin-top: 30px;
+}
+
+.phone-desc>div {
+    height: auto;
+    width: 25%;
+    float: left;
+}
+
+.phone-desc>div ul {
+    list-style: none;
+}
+
+.phone-desc>div ul>li {
+    margin: 8px 0;
+}
+
+.phone-desc button {
+    border: 0;
+    font-size: 18px;
+    padding: 5px 15px;
+    background-color: rgb(104, 139, 245);
+    color: white;
+    border-radius: 15px;
+
+}
+
+
+
+.media div {
+
+    width: 100%;
+    display: inline;
+}
+
+.media {
+    width: 80%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.media img {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 5px;
+
+}
+
+.media h2 {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(56, 45, 207);
+}
+
+footer nav {
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+footer nav a {
+    color: white;
+    font-size: 18px;
+
+}
+
+footer nav a:hover {
+    color: rgb(104, 139, 245);
+}
+
+.support {
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.search {
+    height: 100px;
+    width: 80%;
+    float: right;
+
+}
+
+.search-section {
+    height: 60px;
+    width: 60%;
+    float: left;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+
+.support-join>h2 {
+    text-align: center;
+}
+
+.sign-up {
+    height: 600px;
+    width: 80%;
+    float: right;
+
+
+}
+
+.sign-up-area {
+    height: 60px;
+    width: 58%;
+    padding-bottom: 5px;
+    margin: 1%;
+    font-size: 16px;
+
+}
+
+.sign-up-area-gen {
+    width: 80%;
+    display: inline-block;
+    height: 60px;
+
+}
+
+
+
+.sign-up-confirm {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+
+
+}
+
+.sign-up-confirm {
+    background-color: rgb(104, 139, 245);
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    font-size: 18px;
+
+}
